@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="inq.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/50d2b85661.js"></script>
+<head>
+	<title>NSBM-Learning Managemnet System</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="NSBM, NSBM-Learning Management System, Green University,lms">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body >
+	
+<!--navigation bar-->
+	<div id="nav">
+		<div id="nav_wrapper"><br>
+			<ul>
+				<li><a href="newweb.html">Home</a></li>
+				<li><a href="time_tables.html">TimeTables</a></li>
+				<li><a href="references.html">References</a></li>
+				<li><a href="student_guid.html">StudentGuid</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="http://localhost:8082/loginlms/modules.php">Modules</a></li>
+				<li><a href="projects.html">Projects</a></li>
+			</ul>	
+		</div><br><br><br>
+	<script>
+		$('.handle').on('click',function(){
+			$('nav ul').toggleClass('showing');
+		});
+	</script>
+	<div id="FacultiesDiv">
+		<div id="FacultiesCom">
+			<h4><a href="computing.html">School of Computing</a></h3>
+		</div>
+		<div id="FacultiesBus">
+			<h4><a href="Businessdetails.html">School of Business</a></h3>
+		</div>
+		<div id="FacultiesEng">
+			<h4><a href="#">School of Engineering</a></h3>
+		</div>
+	</div>
+	<div id="sideBar">
+		<a href="contactlecs.html">Contact Lecturers</a><br><br>
+		<a href="Inquiries.html">Inquiries</a><br><br>
+		<a href="studresults.html">Students Results</a><br><br>
+		<a href="notifications.html">Notifications</a><br><br>
+		<a href="studreport.html">Student Report</a><br><br>
+		<a href="http://nsbm.lk/home">Programmes</a><br><br>
+		<a href="facilities.html">Facilities</a><br><br>
+		<a href="events.html">Up coming events..</a><br><br>
+		</div>
+
+	<!--<div class="col-3 col-s-4 hidenav" >
+  		<a href="#" id="Inq">Inquiries</a>
+  		<a href="Lecturers.html" id="lec">Lecturers</a>
+  		<a href="upcoming.html" id="upcoming">Upcoming Events</a>
+  		<a href="application.html" id="application">Event Application</a>
+	</div>-->
+
+<!--form in right corner-->
+
+	<div class="col-4 col-s-12">
+		<div class="logingform">
+         <div class="account-wall">
+                <img class="profile-img" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
+                <p class="profile-name"></p>
+                
+				
+                	 <form class="formfeatures" name="form1" method="POST">
+				<p>Welcome to the world renowed University in South Asia!!</p><br><br>
+						<marquee><i class="fa fa-handshake-o fa-4x" aria-hidden="true" style="color: white;"></i></marquee>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                        </div>
+                        
+        	    </div>
+        	    
+			</form>
+
+		</div>
+		</div>
+	</div>
+<!--first news in LMS-->
+	<div class="col-12 col-s-12 ">
+		<div class="middleBox">
+			<div class="info">Inquiry </div>
+			<form action="mail.php" method="post" name="form" class="form-box">
+				<label for="name">Name</label><br>
+				<input type="text" name="name" class="inp" placeholder="Enter your name & student id no" required><br>
+				<label for="emai">Email ID</label><br>
+				<input type="email" name="email" class="inp" placeholder="Enter your Email" required><br>
+				<label for="phone">Phone</label><br>
+				<input type="tel" name="phone" class="inp" placeholder="Enter your phone" required><br>
+				<label for="message">Message</label><br>
+				<textarea name="msg" class="msg-box" placeholder="Enter your Message here.." required></textarea> <br>
+				<input type="submit" name="submit" value="Send" class="sub-btn"><br>
+			</form>
+		</div>
+	</div>
+
+	<footer id="bottomFooter"> 
+		<div id="footerParagraph"> 
+			<p>Copyright @ CodeOn 16.2 (B2) School of Computing, National School of Business Management, Sri Lanka.</p>
+		</div>
+		<div id="bottomFooter2">
+			<p>Telephone: +94(11) 567 2545|5673535 - Email:info@nsbm.lk</p>
+		</div>
+	</footer>
+</body>
+</html>
